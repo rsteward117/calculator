@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+}
+#container{
+    position: absolute;
+    right: 30%;
+}
+#display{
+    border: solid black 1px;
+    width: 500px;
+    height: 100px;
+    text-align: right;
+    font-size: 92px;
+    background-color: darkslategray;
+}
+.allbuttons{
+width: 500px;
+border: solid 1px black;
+}
+.buttons{
+display: grid;
+grid-gap: 10px;
+background-color: darkslategray;
+text-align: center;
+}
+.row1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.row2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.row3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.row4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.row5{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10px;
+}
+#del{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 25px;
+}
+.number{
+    background-color: dimgrey;
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.operator{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+#clear{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    font-size: 25px;
+}
+.equal{
+    width: 260px;
+    height: 100px;
+    margin-right: 9px;
+    margin-left: 10px;
+    border-radius: 12px;
+    background-color: green;
+    font-size: 40px;
+}
